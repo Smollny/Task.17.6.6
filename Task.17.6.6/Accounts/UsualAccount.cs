@@ -1,6 +1,6 @@
 ﻿namespace Task._17._6._6
 {
-    public class UsualAccount : ICalculator
+    public class UsualAccount : ICalculatorInterest
     {
         // расчет процентной ставки обычного аккаунта по правилам банка
         public double CalculateInterest(double Balance)

@@ -8,7 +8,7 @@
         // процентная ставка
         public double Interest { get; set; }
 
-        public void CalculateInterest(ICalculator calculator)
+        public void CalculateInterest(ICalculatorInterest calculator)
         {
             Interest = calculator.CalculateInterest(Balance);
         }

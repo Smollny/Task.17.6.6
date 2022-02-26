@@ -42,9 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
-    <Compile Include="UsualAccount.cs" />
-    <Compile Include="SalaryAccount.cs" />
-    <Compile Include="ICalculator.cs" />
+    <Compile Include="Accounts\UsualAccount.cs" />
+    <Compile Include="Accounts\SalaryAccount.cs" />
+    <Compile Include="Accounts\ICalculatorInterest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

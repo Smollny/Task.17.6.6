@@ -3,7 +3,7 @@
     /// <summary>
     /// Общий интерфейс для расчета процентной ставки
     /// </summary>
-    public interface ICalculator
+    public interface ICalculatorInterest
     {
         double CalculateInterest(double Balance);
     }
